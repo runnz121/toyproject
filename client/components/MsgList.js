@@ -11,7 +11,12 @@ const originalMsgs = Array(50).fill(0).map((_, i) => ({
     timestamp: 1234567890123 + (50 - i) * 1000 * 60,
     text: `${50 - i} mock text`
 
-})) //fill로 array를 채워야지 map을 돌릴 수 있다
+})) 
+
+console.log(JSON.stringify(originalMsgs));
+
+
+//fill로 array를 채워야지 map을 돌릴 수 있다
 //.reverse() 이거 대신 50 - i를 해줌으로서 역순 정렬 됨
 
 
