@@ -4,7 +4,7 @@ import{resolve} from 'path'
 const basePath = resolve() //현재의 경로가 베이스 path 로 잡힌다
 
 const filenames = {
-    messages: resolve(basePath, 'src/db?messages.json'),
+    messages: resolve(basePath, 'src/db/message.json'),
     users: resolve(basePath, 'src/db/users.json')
 }
 
